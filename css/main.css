@@ -1,0 +1,124 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+header, nav,aside,section,footer{
+	display: block;
+}
+
+body{
+	background-color: lightslategray;
+	text-align: center;
+	font-family: arial;
+	line-height: 30px;
+	
+}
+ul{
+	list-style-type: none;
+	
+}
+#container{
+	border: 1px solid black;
+	width :1200px;
+	min-height: 1000px;
+	margin:25px auto;
+	text-align:left;
+	color:black;
+	background-color: white;
+	border-radius: 10px;
+}
+.logo{
+	text-align: left;
+	color: white;
+	margin-top:20px;
+	margin-left: 190px;
+	margin-bottom: 25px;
+}
+nav li{
+	display: inline-block;
+	padding:10px;
+
+	/*margin-left: 190px;*/
+}
+
+aside{
+	float: right;
+	width: 300px;
+	border-left: 1px dashed black;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+aside>
+.inner_widget
+{
+	padding:50px auto;
+	margin:25px;
+}
+#container> h1{
+	padding-top:10px;
+	padding-left: 25px;
+}
+#container > p{
+	padding:30px;
+	width: 700px;
+	font:tahoma;
+}
+.inner_widget{
+	border-top:1px dotted black;
+}
+#external_data{
+	margin-left:25px;
+	margin-top:25px;
+}
+
+#profile{
+	margin-left:25px;
+	margin-top:40px;
+}
+#profile_picture{
+	float:right;
+	margin-top:30px;
+	margin-right:70px;
+}
+.profile{
+	border:1px dotted black;
+	margin-right:5px;
+	margin-top:25px;
+	width:94%;
+	min-height:220px;
+}
+#upload_button{
+	position: relative;
+	margin-right:50px;
+}
+#upload_img_form{
+	margin: 20px auto;
+	margin-right:30px;
+	border: 1px #ccc dotted;
+	max-width:94%;
+	background-color: #f9f9f9;
+	padding-left:25px;
+}
+
+fieldset{
+	padding:25px;
+	max-width: 65%;
+	line-height: 250%;
+}
+legend{
+	font-family: tahoma;
+	font-size: 25px;
+	margin-left: 15px;
+}
+#nav_list{
+	margin-left: 35px;
+}
+#rate_button{
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 50px;
+
+}
+#number{
+	margin-left: 5%;
+}
